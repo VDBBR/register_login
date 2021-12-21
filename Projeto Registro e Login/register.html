@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Sign Up</title>
+    <script src="javascript/register.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="headerMenu">
+            <a href="home.html">Início</a>
+        </nav>
+        <a href="home.html"><img src="img/logo_vd.png" id="logoVd"></a>
+    </header>
+
+    <div id="loginDiv">
+        <form>
+            <h2>Registrar</h2>
+            <p style="text-align: center; color: red;" id="errorLog"></p>
+            <p>Usuário:*</p>
+            <input type="text" name="username" id="username" class="textInput">
+            <p>Senha:*</p>
+            <input type="password" name="password" id="password" class="textInput"><br><br>
+            <input type="checkbox" id="servicesTerms" name="services" value="Service">
+            <span for="servicesTerms">Concordo com os </span><a href="#" style="color: white;">Termos de Serviço</a><br><br>
+            <input type="button" id="loginButton" value="Registrar" onclick="getSignup();">
+        </form>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,93 @@
+body{
+    font-family: sans-serif;
+    color: #ffffff;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: rgba(31, 5, 38);
+}
+header{
+    background: #480c59;
+    padding: 30px;
+    height: 100%;
+    width: 100%;
+    margin-left: -50px;
+    margin-top: -10px;
+}
+
+.techContent{
+    width: 25%;
+    position: relative;
+    left: 50%;
+    margin: 22% 0;
+    text-align: center;
+}
+
+#signupButton{
+    background: rgb(255, 123, 0);
+    padding: 10px;
+    border-radius: 2px;
+    color: white;
+    text-decoration: none;
+}
+#signupButton:hover {
+    background: rgb(255, 255, 255);
+    color: black;
+}
+
+.headerMenu{
+    text-align: right;
+   }
+.headerMenu a{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    background: rgb(255, 123, 0);
+    border-radius: 3px;
+}
+.headerMenu a:hover{
+    color: white;
+    background: blueviolet;
+}
+
+#logoVd {
+    margin-top: -35px;
+    margin-left: 100px;
+    height: 50px;
+    float: left;
+}
+#login{
+    background: red;
+    color: white;
+    padding: 10px;
+}
+#login:hover {
+    background: blueviolet;
+}
+#contract:hover{
+    background-color: white;
+    color: black;
+}
+#loginDiv {
+    align-items: center;
+    background: #480c59;
+    padding: 70px;
+    height: 300px;
+    width: 40%;
+    margin: 100px auto;
+    border-radius: 10px;
+    text-align: center;
+}
+#loginDiv p{
+    text-align: left;
+}
+#loginDiv input.textInput{
+    width: 100%;
+}
+#loginButton{
+    font-size: 20px;
+    text-decoration: none;
+    background: rgb(255, 123, 0);
+    padding: 5px;
+    border-radius: 3px;
+    color: black;
+}
